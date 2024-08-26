@@ -8,3 +8,8 @@ const number2 = 2.8;
 
 const result = add(number1, number2);
 console.log(result);
+
+// Core Types
+// - number - 1, 5.3, -10 (All numbers, no differention between integers or floats)
+// - string - 'Hi', "Hi", `Hi` (All text values)
+// - boolean - true, false (Just these two, no "truthy" or "falsy" values)
