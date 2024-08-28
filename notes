@@ -72,3 +72,15 @@ CORE TYPES :
 8.  Any
     - \*
     - (Any kind of value, no specific type assignment)
+
+[PL]
+TypeScript to statycznie typowany język programowania, który jest nadzbiorem JavaScript. To znaczy, że każdy kod JavaScript jest jednocześnie poprawnym kodem TypeScript. TypeScript wprowadza typowanie statyczne, klasy, interfejsy, moduły i inne zaawansowane funkcje, które pomagają tworzyć bardziej złożone aplikacje w sposob bezpieczny i skalowalny.
+
+1. Główne cechy TypeScript:
+
+- Typowanie statyczne: Umożliwia definiowanie typow danych dla zmiennych, funkcji i obiektów, co pomaga unikać błedów jeszcze na etapie kompilacji.
+- Rozszerzenie JavaScript: Kody TypeScript jest kompilowany do JavaScript, co sprawia, że może być uruchamiany w dowolnym środowisku, które obsługuje JavaScript (np. przeglądarki, Node.js).
+- Interfejsy i klasy: TypeScript wspiera obiektowość z prawdziwego zdarzenia, wprowadzając interfejsy, klasy, dziedziczenie i modyfikatory dostępu (public, private, protected).
+- Wsparcie dla nowoczesnych funkcji ECMAScript: TypeScript jest kompatybilny z nowymi funkcjami języka JavaScript (takimi jak async/await, generatory, modyifkatory, itd.), dzięki czemu można korzystać z najnowszych możliwości języka.
+- Bezpieczeńdstwo typów: TypeScript sprawdza zgodność typów podczas kompilacji, co pomaga zapobiegać błędom związanym z niezgodnością typów.
+- Lepsze wsparcie dla narzędzi: Dzięki wbudowanym typom i metadanym, TypeScript oferuje lepsze podpowiedzi i sprawdzanie kodu w edytorach jak Visual Studio Code.
