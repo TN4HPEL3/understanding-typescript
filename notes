@@ -43,3 +43,5 @@ description: string;
 }
 
 Tuples are special arrays where you declare how many elements it should have and types of this elements.
+
+Automatically enumerated global constant identifiers.
