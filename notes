@@ -15,3 +15,29 @@ Type Casing:
 3. What's the difference between JavaScript types and TypeScript types?
 
 - TS are checked during compilation, JS types during runtime.
+
+<!--  -->
+
+Nested Objects & Types
+
+Object types can also be created for nested objects.
+const product = {
+id: 'abc1',
+price: 12.99,
+tags: ['great-offer', 'hot-and-new'],
+details: {
+title: 'Red Carpet',
+description: 'A great carpet - almost brand-new!'
+}
+}
+
+This would be type of such an object:
+{
+id: string,
+price: number;
+tags: string[];
+details: {
+title: string;
+description: string;
+}
+}
