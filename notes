@@ -44,4 +44,15 @@ description: string;
 
 Tuples are special arrays where you declare how many elements it should have and types of this elements.
 
-Automatically enumerated global constant identifiers.
+Enum :Automatically enumerated global constant identifiers.
+
+CORE TYPES :
+
+1. number 1, 5.3, -10 (All numbers, no differentiation between integers or floast)
+2. string 'Hi', "Hi", `Hi` (All text values)
+3. boolean true, false (Just these two, no "truthy" or "falsy" values)
+4. object {age: 30} (Any JavaScript object, more specific types (type of object) are possible)
+5. Array [1, 2, 3] (Any JavaScript array, type can be flexible or strict (regarding the element types))
+6. Tuple [1, 2] (Added by TypeScript: Fixed-length array)
+7. Enum enum {NEW, OLD} (Added by TypeScript: Automatically enumerated global constant identifiers)
+8. Any \* (Any kind of value, no specific type assignment)
