@@ -20,11 +20,11 @@ console.log(data);
 // Uwaga: Typ any wyłącza sprawdzanie typów i powinien być używany tylko w sytuacjach, gdy jest to absolutnie konieczne.
 
 // 5. void
-function logMessage(message: string): void {
-  console.log(message);
-}
+// function logMessage(message: string): void {
+//   console.log(message);
+// }
 
-logMessage("This is a message");
+// logMessage("This is a message");
 
 // 6. null & undefined
 let nothing: null = null;

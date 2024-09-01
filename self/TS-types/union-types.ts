@@ -5,12 +5,12 @@ identifier = 123; // Right
 identifier = "ABC"; // Right
 // identifier = true; // Error
 
-function printId(id: number | string) {
-  console.log(`Your id is ${id}`);
-}
+// function printId(id: number | string) {
+//   console.log(`Your id is ${id}`);
+// }
 
-printId(101); // Your id is: 101
-printId("XYZ123"); // Your id is: XYZ123
+// printId(101); // Your id is: 101
+// printId("XYZ123"); // Your id is: XYZ123
 
 //
 //
