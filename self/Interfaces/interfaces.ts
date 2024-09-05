@@ -82,3 +82,35 @@ const myBook: Book = {
 //
 //
 //
+
+// ! Interface: Może być rozszerzany za pomocą extends. Możliwe jest także wielokrotne deklarowanie tego samego interfejsu, co skutkuje ich łączeniem (ang. declaration merging).
+
+interface Human {
+  name: string;
+}
+
+interface Woman extends Human {
+  gender: number;
+}
+
+// Declaration Merging
+
+interface Human {
+  age: number; // Zostanie dodane do wcześniejszej definicji
+}
+
+const Client: Woman = {
+  name: "Ewa",
+  age: 18,
+  gender: 0,
+};
+
+// ! Interface: Zasadniczo służy do definiowania kształtu obiektów. Chociaż można go używać do definiowania typów funkcji, nie ma możliwości tworzenia typów unijnych.
+
+// ! Interface: Może rozszerzać inne interfejsy, ale nie może tworzyć przecięć z typami unijnymi bezpośrednio w deklaracji.
+
+// ! Interface: Pozwala na nadpisywanie właściwości w dziedziczeniu, co jest bardziej elastyczne.
+
+// ! Interface: Często preferowany do definiowania struktur obiektowych, zwłaszcza w publicznych API lub bibliotekach, ponieważ deklaracja jest łatwo rozszerzalna.
+
+// ! Używaj interface, gdy chcesz definiować kształt obiektów lub funkcji, które mogą być rozszerzane lub łączone przez deklarację.
