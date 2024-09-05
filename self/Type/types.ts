@@ -66,3 +66,26 @@ const greetClient: GreetFunction = (name) =>
   `Welcome back in our shop, ${name}!`;
 
 console.log(greetClient("Bob"));
+
+// ! Type: Typy mogą być rozszerzane za pomocą przecięć (&), ale nie można ich deklarować wielokrotnie w ten sposób, jak interfejsów.
+
+type Watch = {
+  brand: string;
+};
+
+type AppleWatch = Watch & {
+  version: number;
+};
+
+// Nie można zrobić declaration mergin z type
+// type Watch = { size: number }; // Error
+
+// ! Type: Może definiować bardziej złożone struktury, takie jak typy unijne, typy przecięć, aliasy typów prymitywnych, krotek, itp.
+
+// ! Type: Umożliwia tworzenie przecięć typów (&), co pozwala na łączenie wielu typów w jeden.
+
+// ! Type: Nadpisywanie typów w przecięciach może prowadzić do konfliktów typów, co skutkuje błędami.
+
+// ! Type: Używany do bardziej złożonych struktur, aliasów, lub w miejscach, gdzie interfejsy nie są wystarczająco elastyczne.
+
+// ! Używaj type, gdy potrzebujesz aliasów dla bardziej złożonych typów, takich jak unie, przecięcia, krotki, czy inne typy specjalistyczne.
