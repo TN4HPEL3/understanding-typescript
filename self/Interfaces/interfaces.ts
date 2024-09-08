@@ -73,11 +73,11 @@ interface Book {
   year?: number;
 }
 
-const myBook: Book = {
-  title: "Dar Przywódctwa",
-  author: "Mariusz Chrapko",
-  //   year: 2024 // oprional
-};
+// const myBook: Book = {
+//   title: "Dar Przywódctwa",
+//   author: "Mariusz Chrapko",
+//   //   year: 2024 // oprional
+// };
 
 //
 //
