@@ -41,8 +41,8 @@ let mixed: (string | number)[] = [1, "two", 3, "four"];
 console.log(mixed);
 
 // 8. object
-let person: { name: string; age: number } = {
-  name: "Alice",
-  age: 30,
-};
-console.log(person.name);
+// let person: { name: string; age: number } = {
+//   name: "Alice",
+//   age: 30,
+// };
+// console.log(person.name);
