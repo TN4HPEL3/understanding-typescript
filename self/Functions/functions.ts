@@ -47,11 +47,11 @@ console.log(multiply(2, 3));
 
 // 5. Typy funkcji jako zmienne:
 // Funkcje można przypisywać do zmiennych, które mają określony typ funkcji.
-let divide: (a: number, b: number) => number;
+// let divide: (a: number, b: number) => number;
 
-divide = (a, b) => a / b;
+// divide = (a, b) => a / b;
 
-console.log(divide(10, 2));
+// console.log(divide(10, 2));
 
 // 6. Funkcje z parametrami o różnych typach:
 // TypeScript pozwala również na używanie typów unijnych w parametrach.
