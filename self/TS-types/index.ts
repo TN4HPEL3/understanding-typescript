@@ -33,8 +33,8 @@ console.log(nothing, notDefined);
 
 // 7. array
 // numbers array
-let numbers: number[] = [1, 2, 3, 4, 5];
-console.log(numbers);
+// let numbers: number[] = [1, 2, 3, 4, 5];
+// console.log(numbers);
 
 // mixed (union)
 let mixed: (string | number)[] = [1, "two", 3, "four"];
